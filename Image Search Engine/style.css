@@ -1,0 +1,72 @@
+body{
+    background-color:  rgb(219, 180, 198);
+    
+    color: rgb(220, 162, 193);
+}
+
+h1{
+    text-align: center;
+    margin: 100px auto 50px;
+    font-style: italic;
+    color: rgb(244, 239, 240);
+
+}
+form{
+    width: 90%;
+    max-width: 600px;
+    align-items: center;
+    background-color: rgb(233, 236, 238);
+    margin: auto;
+    height: 80px;
+    display: flex;
+    border-radius: 8px;
+}
+form input{
+    margin: auto;
+    background: transparent;
+    flex: 1;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    padding: 0 30px;
+}
+form button {
+    border: 0;
+    outline: 0;
+    height: 100%;
+    padding: 0 30px;
+    border-radius: 10px;
+    background-color: rgb(216, 29, 119);
+    cursor: pointer;
+}
+
+::placeholder{
+    color: black;
+    font-size: 18px;
+}
+
+#showmore{
+    background-color: azure;
+    color: black;
+    border-radius: 4px;
+    outline: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px auto 10px;
+    display: none;
+}
+#searchresult{
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap : 40px;
+}
+
+#searchresult img{
+    width : 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 5px;
+}
