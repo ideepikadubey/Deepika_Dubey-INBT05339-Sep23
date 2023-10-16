@@ -1,0 +1,88 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #D3D3D3;/* Background color */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+#bg h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#bg p {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+#bg a.btn {
+    font-size: 18px;
+    color: #fff;
+    background-color: #f0ad4e;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+#bg a.btn:hover {
+    background-color: #ec971f;
+}
+
+.h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    color: #000000;
+    padding-top: 20px;
+}
+
+.container a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.container a:hover {
+    color: #000000;
+}
+
+.py-3 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.py-3 a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.zoom {
+    transition: transform 0.2s;
+}
+
+.zoom:hover {
+    transform: scale(1.05);
+}
+
+.footer1{
+    padding-top: 20px;
+    color: #000000;
+    font-size: 12px;
+   font-family: 'Roboto', sans-serif;
+   text-align: center;
+   font-style: normal;
+}
