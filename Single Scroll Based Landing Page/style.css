@@ -1,0 +1,198 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background: f1fbff;
+}
+.section-padding{
+    padding: 100px 0;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption{
+    z-index: 2;
+    bottom: 220px;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.px;
+}
+
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.navbar a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-brand{
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700px;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:focus
+.navbar-light .navbar-brand:focus{
+    color:#000;
+}
+.navbar-light .navbar-nav .navbar-link{
+    color: #000;
+}
+
+.w-100{
+    height: 100vh;
+}
+
+
+.services .card-body i{
+    font-size: 50px;
+}
+
+.services .card-body{
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+    background: rgb(25, 25, 26);
+}
+
+.services h2{
+    margin-top: -129px;
+    background-color: gainsboro;
+    width: 100%;
+}
+
+.space{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.benefits {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.benefit {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: rgb(25, 25, 26);
+    color: #f9f9f9;
+}
+.benefit h3 {
+    font-size: 2.8em;
+    margin: 10px 0;
+}
+
+
+
+.heading h1{
+    text-align: center;
+    background: gainsboro;
+
+}
+.testimonial {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.testimonial p {
+    font-style: italic;
+}
+.testimonial .author {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.testimonial img{
+    shape-margin: 20px;
+    border-radius: 300px;
+    display: inline;
+    padding-bottom: 10px;
+}
+
+.head h1{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    color: black;
+    width: 100%;
+    background-color: gainsboro;
+}
+.col-md-6 h2{
+    color: #f9f9f9;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mb-3 label{
+    color: #f9f9f9;
+}
+
+.container-fluid h6{
+    text-align: center;
+    align-items: center;
+}
+
+/*=== Responsive CSS ===*/
+
+@media only screen and (min-width: 767px) and (max-width:991px){
+    .carousel-caption{
+        bottom: 370px;
+    }
+    .carousel-caption p{
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    .navbar-nav {
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 125px;
+    }
+
+    .carousel-caption h5{
+      font-size: 17px;
+    }
+
+    .carousel-caption p {
+        padding: 10x 15px;
+    }
+
+    .carousel-caption p {
+        width: 100%;
+        line-height: 1.6;
+        font-size: 12px;
+
+    }
+}
